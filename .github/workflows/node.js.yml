@@ -55,4 +55,4 @@ jobs:
         # Replace with the deployment logic (e.g., AWS ECS or DigitalOcean)
         echo "Deploying Docker container"
         # Example AWS ECS deployment steps:
-        # aws ecs update-service --cluster your-cluster-name --service your-service-name --force-new-deployment
+        # aws ecs update-service ----cluster your-cluster-name --service your-service-name --force-new-deployment
