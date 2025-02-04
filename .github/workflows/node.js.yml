@@ -50,9 +50,4 @@ jobs:
       run: |
         docker push vaishnavi681/my-node-app:latest
 
-    - name: Deploy to your server (Optional, example with AWS ECS)
-      run: |
-        # Replace with the deployment logic (e.g., AWS ECS or DigitalOcean)
-        echo "Deploying Docker container"
-        # Example AWS ECS deployment steps:
-        # aws ecs update-service ------cluster your-cluster-name --service your-service-name --force-new-deployment
+    
