@@ -50,4 +50,7 @@ jobs:
       run: |
         docker push vaishnavi681/my-node-app:latest
 
-    
+    - name: Pull Docker image and run container
+      run: |
+        docker pull vaishnavi681/my-node-app:latest
+        docker run -d -p 3000:3000 vaishnavi681/my-node-app:latest
