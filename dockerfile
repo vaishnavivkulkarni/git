@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 3000
 
 # Run the app when the container starts
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
 
