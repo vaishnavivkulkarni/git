@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-deploy:
-    # Use the 'git-test' self-hosted runner
+    # Use the 'git-test' self-hosted runner   thing are added
     runs-on: [self-hosted, git-test]
 
     strategy:
