@@ -8,7 +8,8 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    # Use the 'git-test' self-hosted runner
+    runs-on: [self-hosted, git-test]
 
     strategy:
       matrix:
