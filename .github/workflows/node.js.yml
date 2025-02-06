@@ -64,7 +64,7 @@ jobs:
         ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa azureuser@${{ secrets.AZURE_VM_PUBLIC_IP }} << 'EOF'
           
           # Pull the latest Docker image
-          docker pull sandeep3414/my-node-app:latest
+          docker pull vaishnavi681/my-node-app:latest
  
           # Remove any running container using port 3000
           CONTAINER_ON_PORT=$(docker ps -q --filter "publish=3000")
